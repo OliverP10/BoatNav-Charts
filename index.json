@@ -1,0 +1,493 @@
+{
+  "generated": "2026-11-03T15:40:13.497Z",
+  "attribution": "Bathymetry: EMODnet Bathymetry Consortium DTM 2024, shallowest sounding per cell (CC BY 4.0). Wrecks & obstructions: contains public sector information from the UK Hydrographic Office, licensed under the Open Government Licence v3.0. Seamarks, marinas & anchorages © OpenStreetMap contributors (ODbL), via OpenSeaMap. Not for navigation.",
+  "packs": [
+    {
+      "id": "solent",
+      "name": "Solent, Isle of Wight & Poole Bay",
+      "bbox": [
+        -2.1,
+        50.3,
+        -0.75,
+        50.95
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "solent.pmtiles",
+      "bytes": 3619576,
+      "grid": "solent.bngrid",
+      "gridBytes": 1346413,
+      "hazards": 808,
+      "bundled": true,
+      "version": "2026-11-03T14:41:15.826Z"
+    },
+    {
+      "id": "dorset",
+      "name": "Dorset: Lyme Bay to Poole",
+      "bbox": [
+        -3.2,
+        50.35,
+        -1.75,
+        50.9
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "dorset.pmtiles",
+      "bytes": 1850583,
+      "grid": "dorset.bngrid",
+      "gridBytes": 1176931,
+      "hazards": 336,
+      "version": "2026-11-03T14:41:58.340Z"
+    },
+    {
+      "id": "devon",
+      "name": "South Devon: Start Point to Exmouth",
+      "bbox": [
+        -4.85,
+        50.1,
+        -3,
+        50.75
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "devon.pmtiles",
+      "bytes": 2559005,
+      "grid": "devon.bngrid",
+      "gridBytes": 1939027,
+      "hazards": 536,
+      "version": "2026-11-03T15:38:14.332Z"
+    },
+    {
+      "id": "cornwall",
+      "name": "Cornwall & Isles of Scilly",
+      "bbox": [
+        -6.6,
+        49.75,
+        -4.6,
+        50.45
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "cornwall.pmtiles",
+      "bytes": 3994179,
+      "grid": "cornwall.bngrid",
+      "gridBytes": 1867625,
+      "hazards": 639,
+      "version": "2026-11-03T14:54:40.773Z"
+    },
+    {
+      "id": "north-cornwall",
+      "name": "North Cornwall & North Devon",
+      "bbox": [
+        -5.85,
+        50.3,
+        -3.9,
+        51.15
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "north-cornwall.pmtiles",
+      "bytes": 3075238,
+      "grid": "north-cornwall.bngrid",
+      "gridBytes": 2611708,
+      "hazards": 486,
+      "version": "2026-11-03T14:55:21.511Z"
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol Channel & Severn",
+      "bbox": [
+        -5,
+        50.95,
+        -2.5,
+        51.75
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "bristol.pmtiles",
+      "bytes": 4890537,
+      "grid": "bristol.bngrid",
+      "gridBytes": 3178038,
+      "hazards": 476,
+      "version": "2026-11-03T14:57:11.962Z"
+    },
+    {
+      "id": "cardigan",
+      "name": "Pembrokeshire & Cardigan Bay",
+      "bbox": [
+        -5.75,
+        51.55,
+        -3.9,
+        53.05
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "cardigan.pmtiles",
+      "bytes": 7004607,
+      "grid": "cardigan.bngrid",
+      "gridBytes": 4252390,
+      "hazards": 437,
+      "version": "2026-11-03T15:38:53.748Z"
+    },
+    {
+      "id": "liverpool",
+      "name": "Anglesey, North Wales & Liverpool Bay",
+      "bbox": [
+        -4.8,
+        52.95,
+        -2.8,
+        53.95
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "liverpool.pmtiles",
+      "bytes": 5459620,
+      "grid": "liverpool.bngrid",
+      "gridBytes": 2927393,
+      "hazards": 908,
+      "version": "2026-11-03T15:04:47.652Z"
+    },
+    {
+      "id": "solway",
+      "name": "Isle of Man, Cumbria & Solway Firth",
+      "bbox": [
+        -5.35,
+        53.75,
+        -2.75,
+        55.05
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "solway.pmtiles",
+      "bytes": 8275103,
+      "grid": "solway.bngrid",
+      "gridBytes": 5704023,
+      "hazards": 525,
+      "version": "2026-11-03T15:08:47.456Z"
+    },
+    {
+      "id": "northern-ireland",
+      "name": "Northern Ireland",
+      "bbox": [
+        -8.2,
+        53.85,
+        -5.15,
+        55.6
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "northern-ireland.pmtiles",
+      "bytes": 9337963,
+      "grid": "northern-ireland.bngrid",
+      "gridBytes": 10672185,
+      "hazards": 499,
+      "version": "2026-11-03T15:09:38.536Z"
+    },
+    {
+      "id": "clyde",
+      "name": "Firth of Clyde",
+      "bbox": [
+        -6.1,
+        55,
+        -4.5,
+        56.1
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "clyde.pmtiles",
+      "bytes": 6434252,
+      "grid": "clyde.bngrid",
+      "gridBytes": 3064202,
+      "hazards": 431,
+      "version": "2026-11-03T15:10:17.800Z"
+    },
+    {
+      "id": "west-scotland",
+      "name": "Kintyre, Jura, Mull & Oban",
+      "bbox": [
+        -6.9,
+        55.45,
+        -5,
+        56.8
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "west-scotland.pmtiles",
+      "bytes": 12501027,
+      "grid": "west-scotland.bngrid",
+      "gridBytes": 4533846,
+      "hazards": 253,
+      "version": "2026-11-03T15:11:12.185Z"
+    },
+    {
+      "id": "hebrides",
+      "name": "Skye, Small Isles & Southern Hebrides",
+      "bbox": [
+        -7.8,
+        56.7,
+        -5.3,
+        57.8
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "hebrides.pmtiles",
+      "bytes": 14602365,
+      "grid": "hebrides.bngrid",
+      "gridBytes": 5051522,
+      "hazards": 128,
+      "version": "2026-11-03T15:12:06.871Z"
+    },
+    {
+      "id": "north-west-scotland",
+      "name": "North West Scotland & Lewis",
+      "bbox": [
+        -7.7,
+        57.7,
+        -4.6,
+        58.75
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "north-west-scotland.pmtiles",
+      "bytes": 10837300,
+      "grid": "north-west-scotland.bngrid",
+      "gridBytes": 6105370,
+      "hazards": 129,
+      "version": "2026-11-03T15:12:58.638Z"
+    },
+    {
+      "id": "orkney",
+      "name": "Pentland Firth & Orkney",
+      "bbox": [
+        -3.8,
+        58.5,
+        -1.9,
+        59.45
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "orkney.pmtiles",
+      "bytes": 7317048,
+      "grid": "orkney.bngrid",
+      "gridBytes": 2622661,
+      "hazards": 343,
+      "version": "2026-11-03T15:13:46.173Z"
+    },
+    {
+      "id": "shetland",
+      "name": "Fair Isle & Shetland",
+      "bbox": [
+        -2.2,
+        59.3,
+        -0.6,
+        60.9
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "shetland.pmtiles",
+      "bytes": 8907436,
+      "grid": "shetland.bngrid",
+      "gridBytes": 3705578,
+      "hazards": 112,
+      "version": "2026-11-03T15:14:40.874Z"
+    },
+    {
+      "id": "moray",
+      "name": "Moray Firth & Caithness",
+      "bbox": [
+        -4.4,
+        57.4,
+        -1.6,
+        58.75
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "moray.pmtiles",
+      "bytes": 7521235,
+      "grid": "moray.bngrid",
+      "gridBytes": 6012809,
+      "hazards": 370,
+      "version": "2026-11-03T15:15:17.993Z"
+    },
+    {
+      "id": "east-scotland",
+      "name": "Firth of Tay to Aberdeen & Peterhead",
+      "bbox": [
+        -3.6,
+        56.15,
+        -1.5,
+        57.8
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "east-scotland.pmtiles",
+      "bytes": 5322050,
+      "grid": "east-scotland.bngrid",
+      "gridBytes": 6618461,
+      "hazards": 376,
+      "version": "2026-11-03T15:16:11.403Z"
+    },
+    {
+      "id": "forth",
+      "name": "Firth of Forth & Northumberland",
+      "bbox": [
+        -3.4,
+        54.9,
+        -1.1,
+        56.3
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "forth.pmtiles",
+      "bytes": 4855417,
+      "grid": "forth.bngrid",
+      "gridBytes": 6355398,
+      "hazards": 587,
+      "version": "2026-11-03T15:16:59.283Z"
+    },
+    {
+      "id": "north-east",
+      "name": "Tyne, Tees & Yorkshire",
+      "bbox": [
+        -1.75,
+        53.75,
+        0.3,
+        55.05
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "north-east.pmtiles",
+      "bytes": 3818817,
+      "grid": "north-east.bngrid",
+      "gridBytes": 3843985,
+      "hazards": 763,
+      "version": "2026-11-03T15:39:29.746Z"
+    },
+    {
+      "id": "humber",
+      "name": "Humber & The Wash",
+      "bbox": [
+        -0.5,
+        52.7,
+        1.4,
+        53.85
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "humber.pmtiles",
+      "bytes": 7611444,
+      "grid": "humber.bngrid",
+      "gridBytes": 2959145,
+      "hazards": 765,
+      "version": "2026-11-03T15:26:31.554Z"
+    },
+    {
+      "id": "east-anglia",
+      "name": "East Anglia: Norfolk & Suffolk",
+      "bbox": [
+        1,
+        51.9,
+        2.2,
+        53.05
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "east-anglia.pmtiles",
+      "bytes": 6037621,
+      "grid": "east-anglia.bngrid",
+      "gridBytes": 2287931,
+      "hazards": 1133,
+      "version": "2026-11-03T15:27:27.036Z"
+    },
+    {
+      "id": "thames",
+      "name": "Thames Estuary & Essex",
+      "bbox": [
+        0.35,
+        51.3,
+        1.95,
+        52.1
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "thames.pmtiles",
+      "bytes": 6773830,
+      "grid": "thames.bngrid",
+      "gridBytes": 2083649,
+      "hazards": 2054,
+      "version": "2026-11-03T15:28:16.305Z"
+    },
+    {
+      "id": "dover",
+      "name": "Kent & Dover Strait",
+      "bbox": [
+        0.75,
+        50.75,
+        1.95,
+        51.55
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "dover.pmtiles",
+      "bytes": 5312974,
+      "grid": "dover.bngrid",
+      "gridBytes": 1548748,
+      "hazards": 1394,
+      "version": "2026-11-03T15:29:04.845Z"
+    },
+    {
+      "id": "sussex",
+      "name": "Sussex: Selsey Bill to Dungeness",
+      "bbox": [
+        -1,
+        50.5,
+        0.95,
+        51.05
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "sussex.pmtiles",
+      "bytes": 3480694,
+      "grid": "sussex.bngrid",
+      "gridBytes": 1707159,
+      "hazards": 489,
+      "version": "2026-11-03T15:29:36.747Z"
+    },
+    {
+      "id": "mid-channel",
+      "name": "Mid-Channel: Solent & Dorset to Cherbourg",
+      "bbox": [
+        -3.2,
+        49.55,
+        -0.8,
+        50.45
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "mid-channel.pmtiles",
+      "bytes": 5631388,
+      "grid": "mid-channel.bngrid",
+      "gridBytes": 2512390,
+      "hazards": 812,
+      "version": "2026-11-03T15:40:13.497Z"
+    },
+    {
+      "id": "channel-islands",
+      "name": "Channel Islands",
+      "bbox": [
+        -3,
+        48.9,
+        -1.8,
+        49.9
+      ],
+      "minZoom": 6,
+      "maxZoom": 13,
+      "file": "channel-islands.pmtiles",
+      "bytes": 6168824,
+      "grid": "channel-islands.bngrid",
+      "gridBytes": 1704602,
+      "hazards": 343,
+      "version": "2026-11-03T15:37:17.269Z"
+    }
+  ]
+}
